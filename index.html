@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>OWEN — Visual Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <a href="#home" class="logo">
+        OWEN<span>.</span>
+    </a>
+
+    <nav class="nav-menu">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#documentation">DOKUMENTASI</a>
+        <a href="#publication">PUBLIKASI</a>
+        <a href="#contact">KONTAK</a>
+    </nav>
+
+    <a href="#contact" class="nav-button">
+        LET'S TALK ↗
+    </a>
+
+    <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+    </button>
+
+</header>
+
+
+<main>
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-grid"></div>
+
+    <div class="graffiti graffiti-one">
+        CREATE
+    </div>
+
+    <div class="graffiti graffiti-two">
+        ↗
+    </div>
+
+    <div class="hero-content reveal">
+
+        <p class="eyebrow">
+            HMPS / 2026
+        </p>
+
+        <div class="hero-title">
+
+            <span class="name-background">
+                OWEN
+            </span>
+
+            <span class="title-small">
+                PORTOFOLIO
+            </span>
+
+            <h1>
+                PUBDOK<br>
+                ARSI<span>.</span>
+            </h1>
+
+        </div>
+
+        <p class="hero-description">
+            Publikasi & dokumentasi visual dengan pendekatan
+            arsitektur, ruang, manusia dan cerita di baliknya.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#documentation" class="button primary">
+                LIHAT KARYA ↗
+            </a>
+
+            <a href="#about" class="button secondary">
+                ABOUT ME
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-photo reveal">
+
+        <div class="photo-card">
+
+            <img src="hero.jpg" alt="Owen">
+
+            <div class="photo-label">
+                PORTRAIT / 01
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="scroll-text">
+        SCROLL ↓
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="about">
+
+    <div class="section-number">
+        02
+    </div>
+
+    <div class="about-title reveal">
+
+        <p class="eyebrow">
+            ABOUT ME
+        </p>
+
+        <h2>
+            SEE THE<br>
+            <em>SPACE.</em><br>
+            TELL THE<br>
+            STORY.
+        </h2>
+
+    </div>
+
+
+    <div class="about-content reveal">
+
+        <p class="about-big">
+            Hai, saya <strong>Owen.</strong>
+        </p>
+
+        <p>
+            Saya dari prodi Arsitektur dan lulusan SMK Maitreyawira Dumai jurusan Teknik Jaringan Komputer yang tertarik dengan fotografi, dokumentasi,
+            publikasi visual dan bagaimana sebuah ruang
+            dapat menyampaikan sebuah cerita.
+        </p>
+
+        <p>
+            Portfolio ini merupakan kumpulan visual yang saya kerjakan dari proses mengambil
+            gambar sampai mengolahnya menjadi sebuah
+            karya publikasi.
+        </p>
+
+
+        <div class="about-stats">
+
+            <div>
+                <strong>32</strong>
+                <span>PHOTOGRAFI<br>DOKUMENTASI</span>
+            </div>
+
+            <div>
+                <strong>4</strong>
+                <span>PUBLIKASI<br>EDITING</span>
+            </div>
+
+            <div>
+                <strong>∞</strong>
+                <span>IDEAS TO<br>EXPLORE</span>
+            </div>
+
+        </div>
+
+
+        <div class="skill-tags">
+
+            <span>PHOTOGRAPHY</span>
+            <span>VIDEOGRAPHY</span>
+            <span>DOCUMENTATION</span>
+            <span>EDITING</span>
+            <span>PUBLICATION</span>
+            <span>ARCHITECTURE</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     DOCUMENTATION
+===================================================== -->
+
+<section id="documentation" class="documentation">
+
+    <div class="section-number">
+        03
+    </div>
+
+
+    <div class="documentation-header reveal">
+
+        <div>
+
+            <p class="eyebrow">
+                03 / DOCUMENTATION
+            </p>
+
+            <h2>
+                CAPTURED<br>
+                <em>MOMENTS.</em>
+            </h2>
+
+        </div>
+
+        <p>
+            Hasil dokumentasi beberapa moment.
+        </p>
+
+    </div>
+
+
+    <!-- FILTER -->
+
+    <div class="category-menu reveal">
+
+        <button class="category active" data-category="all">
+            ALL
+        </button>
+
+        <button class="category" data-category="pemandangan">
+            PEMANDANGAN
+        </button>
+
+        <button class="category" data-category="acara">
+            MEMORIES SCHOOL
+        </button>
+
+        <button class="category" data-category="objek">
+            UMUM
+        </button>
+
+    </div>
+
+
+    <!-- ================= ALL ================= -->
+
+    <div class="gallery all-gallery">
+
+        <!-- Pemandangan -->
+        <div class="gallery-card"
+             data-category="pemandangan">
+
+            <img src="pemandangan1.jpeg"
+                 alt="Pemandangan 1">
+
+            <div class="gallery-info">
+                <span>PEMANDANGAN</span>
+                <b>01 ↗</b>
+            </div>
+
+        </div>
+
+
+        <!-- Acara -->
+
+        <div class="gallery-card"
+             data-category="acara">
+
+            <img src="school2.jpg"
+                 alt="Acara 1">
+
+            <div class="gallery-info">
+                <span>MEMORIES SCHOOL</span>
+                <b>02 ↗</b>
+            </div>
+
+        </div>
+
+
+        <!-- Objek -->
+
+        <div class="gallery-card"
+             data-category="objek">
+
+            <img src="umum1.jpeg"
+                 alt="Objek 1">
+
+            <div class="gallery-info">
+                <span>UMUM</span>
+                <b>03 ↗</b>
+            </div>
+
+        </div>
+
+
+        <!-- Pemandangan -->
+
+        <div class="gallery-card"
+             data-category="pemandangan">
+
+            <img src="pemandangan2.jpeg"
+                 alt="Pemandangan 2">
+
+            <div class="gallery-info">
+                <span>PEMANDANGAN</span>
+                <b>04 ↗</b>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= CATEGORY GALLERIES ================= -->
+
+    <div class="category-gallery-container">
+
+
+        <!-- PEMANDANGAN -->
+
+        <div class="category-gallery"
+             data-gallery="pemandangan">
+
+            <div class="category-heading">
+
+                <h3>
+                    PEMANDANGAN
+                </h3>
+
+                <span>
+                    04 PHOTOS
+                </span>
+
+            </div>
+
+
+            <div class="gallery five-grid">
+
+                <div class="gallery-card">
+                    <img src="pemandangan1.jpeg"
+                         alt="Pemandangan 1">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="pemandangan2.jpeg"
+                         alt="Pemandangan 2">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="pemandangan3.jpeg"
+                         alt="Pemandangan 3">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="pemandangan4.jpeg"
+                         alt="Pemandangan 4">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ACARA -->
+
+        <div class="category-gallery"
+             data-gallery="acara">
+
+            <div class="category-heading">
+
+                <h3>
+                    ACARA
+                </h3>
+
+                <span>
+                    09 PHOTOS
+                </span>
+
+            </div>
+
+
+            <div class="gallery five-grid">
+
+                <div class="gallery-card">
+                    <img src="school1.jpg"
+                         alt="Acara 1">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="school2.jpg"
+                         alt="Acara 2">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="school3.jpg"
+                         alt="Acara 3">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="school4.jpg"
+                         alt="Acara 4">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="school5.jpg"
+                         alt="Acara 5">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="school6.jpg"
+                         alt="Acara 6">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="school7.jpg"
+                         alt="Acara 7">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="school8.jpg"
+                         alt="Acara 8">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="school9.jpg"
+                         alt="Acara 9">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- OBJEK -->
+
+        <div class="category-gallery"
+             data-gallery="objek">
+
+            <div class="category-heading">
+
+                <h3>
+                    UMUM & MAGANG
+                </h3>
+
+                <span>
+                    12 PHOTOS
+                </span>
+
+            </div>
+
+
+            <div class="gallery five-grid">
+
+                <div class="gallery-card">
+                    <img src="umum1.jpeg"
+                         alt="Objek 1">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="umum2.jpeg"
+                         alt="Objek 2">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="magang1.jpeg"
+                         alt="MAGANG 1">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="magang2.jpeg"
+                         alt="Objek 2">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="magang3.jpeg"
+                         alt="Objek 3">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="magang4.jpeg"
+                         alt="Objek 4">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="magang5.jpeg"
+                         alt="Objek 5">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="magang6.jpeg"
+                         alt="Objek 6">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="magang7.jpeg"
+                         alt="Objek 7">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="magang8.jpeg"
+                         alt="Objek 8">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="magang9.jpeg"
+                         alt="Objek 9">
+                </div>
+
+                <div class="gallery-card">
+                    <img src="magang10.jpeg"
+                         alt="Objek 10">
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="gallery-note">
+        CLICK PHOTO → ZOOM / DOWNLOAD
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PUBLICATION
+===================================================== -->
+
+<section id="publication" class="publication">
+
+    <div class="section-number">
+        04
+    </div>
+
+
+    <div class="publication-header reveal">
+
+        <div>
+
+            <p class="eyebrow">
+                04 / PUBLICATION & EDIT
+            </p>
+
+            <h2>
+                RAW TO<br>
+                <em>READY.</em>
+            </h2>
+
+        </div>
+
+        <p>
+            Bukti proses editing dan hasil akhir
+            visual yang telah diolah.
+        </p>
+
+    </div>
+
+
+    <!-- ================= EDIT CARDS ================= -->
+
+    <div class="edit-grid">
+
+
+        <!-- EDIT 1 -->
+
+        <article class="edit-card reveal">
+
+            <div class="edit-image">
+
+                <img src="OTW MINING HIKING.jpg"
+                     alt="Hasil edit 1">
+
+                <div class="edit-badge">
+                    EDIT / 01
+                </div>
+
+            </div>
+
+            <div class="edit-info">
+
+                <span>
+                    PHOTOGRAFI
+                </span>
+
+                <h3>
+                    POSTER
+                </h3>
+
+                <p>
+                    Desain yang mempromosikan atau mempublikasikan sebuah kegiatan.
+                </p>
+
+                <a href="OTW MINING HIKING.jpg"
+                   download
+                   class="download">
+                    DOWNLOAD ↓
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- EDIT 2 -->
+
+        <article class="edit-card reveal">
+
+            <div class="edit-image">
+
+                <img src="PROFIL OWEN.jpg"
+                     alt="Hasil edit 2">
+
+                <div class="edit-badge">
+                    EDIT / 02
+                </div>
+
+            </div>
+
+            <div class="edit-info">
+
+                <span>
+                    PHOTOGRAFI
+                </span>
+
+                <h3>
+                    TIM ORGANISASI
+                </h3>
+
+                <p>
+                    Poster yang membuat anggota team organisasi.
+                </p>
+
+                <a href="PROFIL OWEN.jpg"
+                   download
+                   class="download">
+                    DOWNLOAD ↓
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- EDIT 3 -->
+
+        <article class="edit-card reveal">
+
+            <div class="edit-image">
+
+                <img src="MAGANG PAHLAWAN NASIONAL.png"
+                     alt="Hasil edit 3">
+
+                <div class="edit-badge">
+                    EDIT / 03
+                </div>
+
+            </div>
+
+            <div class="edit-info">
+
+                <span>
+                    PHOTOGRAFI
+                </span>
+
+                <h3>
+                    POSTER HASIL KEGIATAN
+                </h3>
+
+                <p>
+                    Mempublikasikan haril acara atau kegiatan yang di lakukan agar orang orang tau.
+                </p>
+
+                <a href="MAGANG PAHLAWAN NASIONAL.png"
+                   download
+                   class="download">
+                    DOWNLOAD ↓
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- EDIT 4 -->
+
+        <article class="edit-card reveal">
+
+            <div class="edit-image">
+
+                <img src="Hasi edit video.png"
+                     alt="Hasil edit 4">
+
+                <div class="edit-badge">
+                    EDIT / 04
+                </div>
+
+            </div>
+
+            <div class="edit-info">
+
+                <span>
+                    VIDEOGRAFI
+                </span>
+
+                <h3>
+                    VIDEO ACARA
+                </h3>
+
+                <p>
+                    Video yang menunjukan kegiatan atau acara apa saja yang di lakukan.
+                </p>
+
+                <a href="https://www.instagram.com/reel/DP6hMv8DsQh/?utm_source=ig_web_button_share_sheet&stkn=MzRlODBiNWFlZA=="
+                   download
+                   class="download">
+                    LINK VIDEO ↓
+                </a>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+
+    <!-- ================= PROCESS ================= -->
+
+    <div class="process reveal">
+
+        <span>RAW</span>
+
+        <b>→</b>
+
+        <span>SELECT</span>
+
+        <b>→</b>
+
+        <span>EDIT</span>
+
+        <b>→</b>
+
+        <span>PUBLISH</span>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact">
+
+    <div class="contact-graffiti">
+        LET'S<br>
+        CREATE.
+    </div>
+
+    <p class="eyebrow reveal">
+        05 / CONTACT
+    </p>
+
+    <h2 class="reveal">
+        GOT A STORY<br>
+        TO <em>CAPTURE?</em>
+    </h2>
+
+    <a href="https://wa.me/qr/UO7WV2QDEJ5LK1"
+       class="email reveal">
+
+        Contact:Firming Owen ↗
+
+    </a>
+
+
+    <footer>
+
+        <span>
+            © 2026 OWEN
+        </span>
+
+        <span>
+            PHOTOGRAPHY • DOCUMENTATION • PUBLICATION
+        </span>
+
+        <a href="#home">
+            BACK TO TOP ↑
+        </a>
+
+    </footer>
+
+</section>
+
+</main>
+
+
+<!-- ================= LIGHTBOX ================= -->
+
+<div class="lightbox" id="lightbox">
+
+    <button id="closeLightbox">
+        CLOSE ×
+    </button>
+
+    <div class="lightbox-content">
+
+        <img id="lightboxImage"
+             src=""
+             alt="">
+
+    </div>
+
+    <div class="lightbox-bottom">
+
+        <span id="lightboxTitle">
+            IMAGE
+        </span>
+
+        <a id="downloadImage"
+           href="#"
+           download>
+            DOWNLOAD ↓
+        </a>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
